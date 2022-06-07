@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="username" value="Yuvaraj98"></parameter>
+  <parameter name="password" value="Inaraht@04"></parameter>
+  <parameter name="firstname" value="Yuvaraj"></parameter>
+  <parameter name="lastname" value="Varatharajan"></parameter>
+  <parameter name="address" value="No.23,Anna Nagar,Uthiramerur,Kancheepuram.603406"></parameter>
+  <parameter name="ccno" value="1234567891234567"></parameter>
+  <parameter name="ccCVV" value="123"></parameter>
+  <classes>
+      <class name="org.practice.AdactinHotel"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
